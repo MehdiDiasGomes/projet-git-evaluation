@@ -3,9 +3,6 @@ const resultText = document.getElementById("resultText");
 
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
-const buttons = document.querySelectorAll(".choices button");
-const resultText = document.getElementById("resultText");
-
 function determineWinner(playerChoice, aiChoice) {
   if (playerChoice === aiChoice) {
     return "Égalité !";
@@ -30,7 +27,7 @@ function aiChoice() {
 
 buttons.forEach(button => {
   button.addEventListener("click", () => {
-    const playerChoice = button.id; 
+    const playerChoice = button.id;  
     const aiChoiceResult = aiChoice();
     const result = determineWinner(playerChoice, aiChoiceResult);
 
