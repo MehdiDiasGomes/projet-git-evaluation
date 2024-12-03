@@ -1,6 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTZ8fHxlbnwwfHx8fHw%3D');   
+    background-size: cover;                  
+    background-position: center;             
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +13,7 @@ body {
 }
 
 h1 {
+
     text-align: center;
     color: #333;
 }

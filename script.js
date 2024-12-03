@@ -3,6 +3,9 @@ const resultText = document.getElementById("resultText");
 
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
+const buttons = document.querySelectorAll(".choices button");
+const resultText = document.getElementById("resultText");
+
 function determineWinner(playerChoice, aiChoice) {
   if (playerChoice === aiChoice) {
     return "Égalité !";
