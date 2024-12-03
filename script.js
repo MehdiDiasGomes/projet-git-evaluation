@@ -1,5 +1,7 @@
-// Les choix possibles
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
+
+const buttons = document.querySelectorAll(".choices button");
+const resultText = document.getElementById("resultText");
 
 function determineWinner(playerChoice, aiChoice) {
   if (playerChoice === aiChoice) {
@@ -25,9 +27,9 @@ function aiChoice() {
 
 buttons.forEach(button => {
   button.addEventListener("click", () => {
-    const playerChoice = button.id;
-    const aiChoiceResult = aiChoice();
-    const result = determineWinner(playerChoice, aiChoiceResult);
+    const playerChoice = button.id;  
+    const aiChoiceResult = aiChoice(); 
+    const result = determineWinner(playerChoice, aiChoiceResult); 
 
     resultText.textContent = `Vous avez choisi ${playerChoice}. L'IA a choisi ${aiChoiceResult}. ${result}`;
   });
