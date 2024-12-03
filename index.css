@@ -7,19 +7,19 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  h1 {
+}
+
+h1 {
     text-align: center;
     color: #333;
-  }
-  
-  .choices {
+}
+
+.choices {
     display: flex;
     gap: 20px;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -28,18 +28,45 @@ body {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #45a049;
-  }
-  
-  button:active {
+}
+
+button:active {
     background-color: #3e8e41;
-  }
-  
-  #resultText {
+}
+
+#resultText {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
-  }
+}
+
+#welcomeScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#startGameButton {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#startGameButton:hover {
+    background-color: #45a049;
+}
+
+#startGameButton:active {
+    background-color: #388e3c;
+}
