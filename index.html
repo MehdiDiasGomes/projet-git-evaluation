@@ -9,19 +9,24 @@
 </head>
 
 <body>
-    <h1>Pierre-Feuille-Ciseaux-Lézard-Spock</h1>
-
-    <div class="choices">
-        <button id="rock">Pierre</button>
-        <button id="paper">Feuille</button>
-        <button id="scissors">Ciseaux</button>
-        <button id="lizard">Lézard</button>
-        <button id="spock">Spock</button>
+    <div id="welcomeScreen">
+        <h1>Pierre-Feuille-Ciseaux-Lézard-Spock</h1>
+        <button id="startGameButton">Commencer le jeu</button>
     </div>
 
-    <p id="resultText"></p>
+    <div id="gameScreen" style="display: none;">
+        <div class="choices">
+            <button id="rock">Pierre</button>
+            <button id="paper">Feuille</button>
+            <button id="scissors">Ciseaux</button>
+            <button id="lizard">Lézard</button>
+            <button id="spock">Spock</button>
+        </div>
+        <p id="resultText"></p>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 
 </html>
