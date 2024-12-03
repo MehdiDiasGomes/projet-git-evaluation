@@ -1,2 +1,6 @@
 # projet-git-evaluation
-Evaluation GIT DFS
+
+- Mehdi DIAS GOMES
+- Charles CYRUL
+
+
